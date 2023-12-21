@@ -1,0 +1,1460 @@
+fileFormatVersion: 2
+guid: c102ca3f57e1816468ceed7957bb9cad
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dotted-pattern_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3666.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8817c291861e35845a83314bda82b2a9
+      internalID: -318249524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_1
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 3666.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd008fc39f0232844bf858d015eb8afd
+      internalID: -305947005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_2
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 3666.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645b5e63ea6d6d64eaef841ae999f98d
+      internalID: 1491296808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_3
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3666.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2542d62d65f85144875348116737898
+      internalID: 1923611486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_4
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 3666.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca163c80f56cfc48b8c4636d4edf1b7
+      internalID: -1952882549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3333.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3599a6e94575f534e92c606866bbee48
+      internalID: 1464921635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_6
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 3333.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fe6f86b0c875144a8d6c54e80419ab
+      internalID: 1985012846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_7
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 3333.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c4ed3273f2b1e49a7c73e4a5392068
+      internalID: 1225676307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_8
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3333.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47b677e50c6d434fab1698991eee516
+      internalID: 1180622096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_9
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 3333.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42574cb2c7eae6249b218a0749a19717
+      internalID: -1124757143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6900339a29e604a918cf3c37cae4af
+      internalID: 859747945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_11
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 3000.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb99273ede411d042b69fe98b0b6c7ba
+      internalID: 73970803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_12
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 3000.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6da317c4f442643b0aab2938287f23
+      internalID: -2065474115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_13
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3000.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca547ec2fd0207149b43d37f8390f79b
+      internalID: 315139358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_14
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 3000.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856a86c83054b8b4fb3dce40e6d5669c
+      internalID: -1218604178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2667.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b17a44e1a85594fb155e61afa74072
+      internalID: 1615271587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_16
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 2667.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ce8004da4a51a4385a7de99566af53
+      internalID: 2147004163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_17
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 2667.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2936f63bd44bc8847a28d74c195a9eab
+      internalID: -1159313987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_18
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2667.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c726a4b9f562c5545b3d7bf5d119bab7
+      internalID: -1711951929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_19
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 2667.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56761710f0d0d9a4da8a97e60b1a353a
+      internalID: -11229169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2334.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3685753093e626745bb7f40c74a4c8c3
+      internalID: 1749769520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_21
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 2334.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f34eb45023e5484f97169f8d68c40d4
+      internalID: -1404902860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_22
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 2334.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c9246442b20d744af3fa81bce872ac
+      internalID: -1594406763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_23
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2334.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1323dae3cb058d74f8dbd3bd59711ca7
+      internalID: 93030863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_24
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 2334.6667
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cfe08bfa3631d478e9073df78218fe
+      internalID: -1932975140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2001.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d398a40d524fe674795867371d40edd7
+      internalID: 707726350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_26
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 2001.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb659d56435ed9c43a9c7f387a9371c4
+      internalID: -1973548097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_27
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 2001.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1c0cbbb99d3e84d86457c7dc6984f3
+      internalID: -178452152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_28
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2001.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f9a3a4739ffd84697d68b2b6c90b8b
+      internalID: -1542531245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_29
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 2001.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248c6d17cb7ab2b4b99ef1175c69a59f
+      internalID: -1202735884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1668.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b241aa9a7427024585d8ce8d1643235
+      internalID: 1557975110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_31
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1668.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73723571932c57d4bab433120977382d
+      internalID: -1354054403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_32
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1668.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d2388998f80b240be65d19d637f881
+      internalID: 1038572050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_33
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1668.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d74bf01491b92f4a9137ad1d9126bde
+      internalID: -504221634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_34
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1668.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2e803c4bbc1c440958491536ad98d6
+      internalID: 1718683149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1335.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296a66c41d66e7145b8fe4d1a6f0aea6
+      internalID: 1855644328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_36
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1335.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284d8c26afd393b45b60a8572726a484
+      internalID: -223641693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_37
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1335.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced98de0bd60afd4bb5d125388ad5e1b
+      internalID: -552631224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_38
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1335.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7760545547e732c408c98519759e0df4
+      internalID: -1408056704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_39
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1335.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2884e4f4eb2d6d94da821dea493d83a9
+      internalID: 1105021489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1002.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0c48756bb666d49bb424b280aff67d
+      internalID: -920550414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_41
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1002.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1eb21f5004c0245a327d952d94475e
+      internalID: 582658843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_42
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1002.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15272ebb190ad174cb8aa93c25b137bf
+      internalID: 1450854898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_43
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1002.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf3866453b010746bb715140e7a3667
+      internalID: -1514393731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_44
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1002.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7754fae529b4444ebd67ce52f5ef6a7
+      internalID: 1399494903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 669.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a475d42d80f156c408fb84eef0eb4df2
+      internalID: -10365227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_46
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 669.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6857f0cc25e234caf12af3c4f95691
+      internalID: -439414716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_47
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 669.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382358a8c6bc7144aa0d43d8d964a6e6
+      internalID: 690242492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_48
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 669.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e118547853ce2b7438c6ee5540e98f30
+      internalID: 445482240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_49
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 669.6666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d26e745e92eb34f942c32b424ac3f8
+      internalID: 964093079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336.66666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbb62d2a7b9fbb4bb127764df62f668
+      internalID: -241644677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_51
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 336.66666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039c2fdc2d4fcc747890ac1ece9fd75d
+      internalID: 335492597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_52
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 336.66666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccdcfb504d67ab4694242245dd2ed1d
+      internalID: -1044983834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_53
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 336.66666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43d96279daa69545b9c1e72ca5f5bfe
+      internalID: 1911634691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_54
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 336.66666
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467840c18db37474c8cf7fc9aaef2611
+      internalID: -947570374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.6666565
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0fd1d6e0ca2f8479a68fb2ccf8071e
+      internalID: 655364816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_56
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 3.6666565
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bae90b26ddcd7f47b3f2fcd6334d091
+      internalID: -937109312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_57
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 3.6666565
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13f7bf5fc47cb849a2eda25c2cad31c
+      internalID: 1451983751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_58
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3.6666565
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2114f46da36f4f40baf35fa436e31ed
+      internalID: 421595639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-pattern_59
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 3.6666565
+        width: 444.4
+        height: 333.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b2e2a74fdd80747ba55bdb36dfba85
+      internalID: 778273457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 85f587954d1ce3c4ab85898241b4e618
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dotted-pattern_0: -318249524
+      Dotted-pattern_1: -305947005
+      Dotted-pattern_10: 859747945
+      Dotted-pattern_11: 73970803
+      Dotted-pattern_12: -2065474115
+      Dotted-pattern_13: 315139358
+      Dotted-pattern_14: -1218604178
+      Dotted-pattern_15: 1615271587
+      Dotted-pattern_16: 2147004163
+      Dotted-pattern_17: -1159313987
+      Dotted-pattern_18: -1711951929
+      Dotted-pattern_19: -11229169
+      Dotted-pattern_2: 1491296808
+      Dotted-pattern_20: 1749769520
+      Dotted-pattern_21: -1404902860
+      Dotted-pattern_22: -1594406763
+      Dotted-pattern_23: 93030863
+      Dotted-pattern_24: -1932975140
+      Dotted-pattern_25: 707726350
+      Dotted-pattern_26: -1973548097
+      Dotted-pattern_27: -178452152
+      Dotted-pattern_28: -1542531245
+      Dotted-pattern_29: -1202735884
+      Dotted-pattern_3: 1923611486
+      Dotted-pattern_30: 1557975110
+      Dotted-pattern_31: -1354054403
+      Dotted-pattern_32: 1038572050
+      Dotted-pattern_33: -504221634
+      Dotted-pattern_34: 1718683149
+      Dotted-pattern_35: 1855644328
+      Dotted-pattern_36: -223641693
+      Dotted-pattern_37: -552631224
+      Dotted-pattern_38: -1408056704
+      Dotted-pattern_39: 1105021489
+      Dotted-pattern_4: -1952882549
+      Dotted-pattern_40: -920550414
+      Dotted-pattern_41: 582658843
+      Dotted-pattern_42: 1450854898
+      Dotted-pattern_43: -1514393731
+      Dotted-pattern_44: 1399494903
+      Dotted-pattern_45: -10365227
+      Dotted-pattern_46: -439414716
+      Dotted-pattern_47: 690242492
+      Dotted-pattern_48: 445482240
+      Dotted-pattern_49: 964093079
+      Dotted-pattern_5: 1464921635
+      Dotted-pattern_50: -241644677
+      Dotted-pattern_51: 335492597
+      Dotted-pattern_52: -1044983834
+      Dotted-pattern_53: 1911634691
+      Dotted-pattern_54: -947570374
+      Dotted-pattern_55: 655364816
+      Dotted-pattern_56: -937109312
+      Dotted-pattern_57: 1451983751
+      Dotted-pattern_58: 421595639
+      Dotted-pattern_59: 778273457
+      Dotted-pattern_6: 1985012846
+      Dotted-pattern_7: 1225676307
+      Dotted-pattern_8: 1180622096
+      Dotted-pattern_9: -1124757143
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
