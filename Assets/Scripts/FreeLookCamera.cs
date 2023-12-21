@@ -22,8 +22,8 @@ public class FreeLookCamera : MonoBehaviour
     {
         mouseX += Input.GetAxis("Mouse X") * rotationSpeed;
         mouseY -= Input.GetAxis("Mouse Y") * rotationSpeed;
-        mouseY = Mathf.Clamp(mouseY, -80f, 80f); // Clamp vertical rotation to prevent camera flipping
+        mouseY = Mathf.Clamp(mouseY, -80f, 80f); 
 
-        transform.rotation = Quaternion.Euler(mouseY, mouseX, 0); // Rotate the camera
+        transform.rotation = Quaternion.Euler(mouseY, mouseX, 0); 
     }
 }
