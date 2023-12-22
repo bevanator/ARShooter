@@ -1,4 +1,5 @@
-﻿using ARShooter.Interface;
+﻿using System;
+using ARShooter.Interface;
 using UnityEngine;
 
 namespace ARShooter
@@ -7,29 +8,22 @@ namespace ARShooter
     {
         [SerializeField] private Health m_Health;
         [SerializeField] private ParticleSystem m_ImpactParticle;
-        [SerializeField] private ParticleSystem m_DeathParticle;
-
+        public event Action OnDamageReceived;
         
-        private void Start()
-        {
-            m_Health.OnHealthIsEmpty += delegate
-            {
-                // OnShootableDeath?.Invoke();
-            };
-        }
         public void OnDamage()
         {
+            OnDamageReceived?.Invoke();
             m_Health.SetHealth(-20);
         }
         private void OnTriggerEnter(Collider other)
         {
             if(!other.gameObject.CompareTag($"Projectile")) return;
-            OnDamage();
+            // OnDamage();
             ShowImpact(other.ClosestPoint(transform.position));
             other.gameObject.SetActive(false);
         }
 
-        private void ShowImpact(Vector3 position)
+        public void ShowImpact(Vector3 position)
         {
             if (!m_ImpactParticle) return;
             m_ImpactParticle.transform.position = position;

@@ -8,12 +8,13 @@ namespace ARShooter.UI
     {
         [SerializeField] private Canvas m_Canvas;
         [SerializeField] private Button m_startButton;
-        
+        public static event Action OnGameStartedEvent;
         private void Start()
         {
             m_startButton.onClick.AddListener(() =>
             {
                 Hide();
+                OnGameStartedEvent?.Invoke();
             });
         }
 

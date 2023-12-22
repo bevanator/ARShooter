@@ -7,21 +7,57 @@ namespace ARShooter
 {
     public class Enemy : MonoBehaviour
     {
-        public float m_MoveSpeed = 5f;
+        [SerializeField] private float m_MoveSpeed = 1f;
         private List<Vector3> _wayPoints = new();
         private int _currentIndex;
-        [SerializeField] private bool m_Looping = true;
 
-        [SerializeField]
-        private int m_NumberOfPoints = 5;
-        
+        private Health _health;
+        private Shootable _shootable;
+        private static readonly int Death = Animator.StringToHash("Death");
+
+        [SerializeField] private bool m_Looping = true;
+        [SerializeField] private int m_NumberOfPoints = 5;
+        [SerializeField] private Animator m_Animator;
+        [SerializeField] private ParticleSystem m_DeathParticle;
+        private static readonly int Damage = Animator.StringToHash("Damage");
+
+        private void Awake()
+        {
+            _shootable = GetComponent<Shootable>();
+            _health = GetComponent<Health>();
+        }
+
+        private void OnEnable()
+        {
+            _health.OnHealthIsEmpty += OnHealthIsEmpty;
+            _shootable.OnDamageReceived += OnDamageReceived;
+        }
+
+        private void OnDisable()
+        {
+            _health.OnHealthIsEmpty -= OnHealthIsEmpty;
+            _shootable.OnDamageReceived -= OnDamageReceived;
+        }
+
+        private void OnDamageReceived()
+        {
+            m_Animator.SetTrigger(Damage);
+        }
+
+        private void OnHealthIsEmpty()
+        {
+            m_Animator.SetTrigger(Death);
+            m_DeathParticle.Play();
+            _health.OnHealthIsEmpty -= OnHealthIsEmpty;
+        }
+
 
         private void Start()
         {
             for (int i = 0; i < m_NumberOfPoints; i++)
             {
                 Vector2 point = Random.insideUnitCircle * 5;
-                _wayPoints.Add(new Vector3(point.x, 3f, point.y));
+                _wayPoints.Add(new Vector3(point.x, 1.5f, point.y));
             }
             transform.LookAt(_wayPoints[0]);
         }
@@ -50,6 +86,11 @@ namespace ARShooter
                 return;
             }
             transform.position = Vector3.MoveTowards(transform.position, currentTarget, step);
+        }
+
+        public void DestroySelf()
+        {
+            gameObject.SetActive(false);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using ARShooter.Interface;
 using UnityEngine;
 
 namespace ARShooter
@@ -15,8 +16,11 @@ namespace ARShooter
         private bool _isShooting;
         private static readonly int IsShooting = Animator.StringToHash("IsShooting");
 
+        [SerializeField] private LayerMask _shootableLayer;
+        private Transform _camTransform;
         private void Awake()
         {
+            _camTransform = GetComponentInParent<Camera>().transform;
             _animator = GetComponent<Animator>();
             _time = m_ShootingDelay;
         }
@@ -29,7 +33,20 @@ namespace ARShooter
             { 
                 ShootFromBarrel(m_ShootingPoint1);
                 ShootFromBarrel(m_ShootingPoint2);
+                ShootUsingRays();
                 _time = m_ShootingDelay;
+            }
+            
+        }
+
+        private void ShootUsingRays()
+        {
+            Ray ray = new Ray(_camTransform.position, _camTransform.forward);
+            RaycastHit hitInfo;
+            if (Physics.Raycast(ray, out hitInfo, Mathf.Infinity, _shootableLayer))
+            {
+                IDamageable damageable = hitInfo.collider.GetComponent<IDamageable>();
+                damageable.OnDamage();
             }
         }
 
