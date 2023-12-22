@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
 
 namespace ARShooter
@@ -20,9 +21,15 @@ namespace ARShooter
         [SerializeField] private Animator m_Animator;
         [SerializeField] private ParticleSystem m_DeathParticle;
         private static readonly int Damage = Animator.StringToHash("Damage");
+        private EnemyState _currentState;
+        [SerializeField] private GameObject m_BulletPrefab;
+        private float _time;
+        [SerializeField] private float m_ShootingDelay = 3f;
+        [SerializeField] private Transform m_ShootingPoint;
 
         private void Awake()
         {
+            _currentState = EnemyState.Roaming;
             _shootable = GetComponent<Shootable>();
             _health = GetComponent<Health>();
         }
@@ -42,6 +49,8 @@ namespace ARShooter
         private void OnDamageReceived()
         {
             m_Animator.SetTrigger(Damage);
+            if((float)_health.CurrentHealth/_health.MaxHealth > 0.7f) return;
+            if(_currentState is EnemyState.Roaming) _currentState = EnemyState.Approaching;
         }
 
         private void OnHealthIsEmpty()
@@ -64,11 +73,53 @@ namespace ARShooter
 
         private void Update()
         {
-            MoveToTarget();
+            switch (_currentState)
+            {
+                case EnemyState.Roaming:
+                    MoveBetweenTargets();
+                    break;
+                case EnemyState.Approaching:
+                    MoveToTarget(Player.Instance.transform.position);
+                    break;
+                case EnemyState.Attacking:
+                    Attack();
+                    break;
+            }
+        }
+
+        private void Attack()
+        {
+            _time -= Time.deltaTime;
+            if (_time <= 0)
+            { 
+                ShootFromPoint(m_ShootingPoint);
+                _time = m_ShootingDelay;
+            }
         }
         
+        private void ShootFromPoint(Transform source)
+        {
+            GameObject bullet = Instantiate(m_BulletPrefab, null);
+            bullet.transform.position = source.position;
+            bullet.transform.LookAt(Player.Instance.transform);
+        }
 
-        private void MoveToTarget()
+        private void MoveToTarget(Vector3 target)
+        {
+            m_MoveSpeed = 2f;
+            transform.LookAt(target);
+            if (Vector3.Distance(transform.position, target) <= 2f)
+            {
+                _currentState = EnemyState.Attacking;
+                return;
+            }
+            float step = m_MoveSpeed * Time.deltaTime;
+            transform.position = Vector3.MoveTowards(transform.position, target, step);
+            
+        }
+
+
+        private void MoveBetweenTargets()
         {
             if (!m_Looping && _currentIndex == m_NumberOfPoints - 1) return;
             float step = m_MoveSpeed * Time.deltaTime;
@@ -92,5 +143,13 @@ namespace ARShooter
         {
             gameObject.SetActive(false);
         }
+    }
+
+    public enum EnemyState
+    {
+        Roaming,
+        Approaching,
+        Attacking,
+        Dead
     }
 }

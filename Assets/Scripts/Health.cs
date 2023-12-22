@@ -1,4 +1,5 @@
 ﻿using System;
+using Unity.Collections;
 using UnityEngine;
 
 namespace ARShooter
@@ -8,6 +9,10 @@ namespace ARShooter
         public event Action OnHealthIsEmpty;
         [SerializeField] private int m_MaxHealth = 100; 
         private int _currentHealth;
+
+        public int CurrentHealth => _currentHealth;
+
+        public int MaxHealth => m_MaxHealth;
 
         private void Awake()
         {

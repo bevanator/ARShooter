@@ -16,26 +16,27 @@ namespace ARShooter
         private void Awake()
         {
             _spawnPos = transform.position;
+            Invoke("DestroySelf", 2f);
         }
 
+        public void DestroySelf()
+        {
+            Destroy(gameObject);
+        }
         private void Start()
         {
             _rb = GetComponent<Rigidbody>();
             _startTime = Time.time;
             _targetPos = transform.position + _maxDistance * transform.forward;
+            
         }
         
-        private async void FixedUpdate()
+        private void FixedUpdate()
         {
             float distCovered = (Time.time - _startTime) * m_Speed;
             float distance = Vector3.Distance(_spawnPos, transform.position);
             float fractionOfJourney = distCovered / _maxDistance;
             _rb.MovePosition(Vector3.Lerp(transform.position, _targetPos, fractionOfJourney));
-            if (distance >= m_Range * 2)
-            {
-                Destroy(gameObject);
-            }
-            await Task.Yield();
         }
     }
 }

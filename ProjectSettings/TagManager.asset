@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Projectile
+  - Orb
   layers:
   - Default
   - TransparentFX

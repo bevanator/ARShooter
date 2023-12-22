@@ -56,7 +56,6 @@ namespace ARShooter
             bullet.transform.position = source.position;
             bullet.transform.rotation = source.rotation;
             bullet.transform.Rotate(Vector3.right, 90f);
-
         }
 
         public void SetShootingStatus(bool state)

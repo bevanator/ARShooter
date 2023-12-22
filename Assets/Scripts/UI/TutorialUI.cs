@@ -12,20 +12,19 @@ namespace ARShooter.UI
         {
             PortalPlacer.OnPlaneDetected += OnPlaneDetected;
             PortalPlacer.OnPortalPlaced += OnPortalPlaced;
-            MainMenuUI.OnGameStartedEvent += OnGameStartedEvent;
         }
 
         private void OnDisable()
         {
             PortalPlacer.OnPlaneDetected -= OnPlaneDetected;
             PortalPlacer.OnPortalPlaced -= OnPortalPlaced;
-            MainMenuUI.OnGameStartedEvent -= OnGameStartedEvent;
         }
 
-        private void OnGameStartedEvent()
+        private void Start()
         {
             m_DevicePanel.gameObject.SetActive(true);
         }
+        
 
         private void OnPortalPlaced()
         {

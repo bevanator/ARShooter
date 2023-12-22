@@ -11,11 +11,7 @@ namespace ARShooter.UI
         public static event Action OnGameStartedEvent;
         private void Start()
         {
-            m_startButton.onClick.AddListener(() =>
-            {
-                Hide();
-                OnGameStartedEvent?.Invoke();
-            });
+            OnGameStartedEvent?.Invoke();
         }
 
         public void Show()
